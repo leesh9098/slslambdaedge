@@ -1,5 +1,5 @@
 slslambdaedge:
-  component: "@sls-next/serverless-component@latest"
+  component: "@sls-next/serverless-component@3.7.0-alpha.10"
   inputs:
     name:
       defaultLambda: DefaultLambda
