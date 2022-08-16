@@ -4,6 +4,6 @@ slslambdaedge:
     name:
       defaultLambda: DefaultLambda
       imageLambda: ImageLambda
-    bucketRegion: 'ap-northeast-2'
+    bucketRegion: ${{ secrets.AWS_BUCKET_REGION }}
     cloudfront:
       comment: 'next deploy'
