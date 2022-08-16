@@ -1,0 +1,8 @@
+slslambdaedge:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    name:
+      defaultLambda: DefaultLambda
+      imageLambda: ImageLambda
+    bucketRegion: ${{ secrets.AWS_BUCKET_REGION }}
+    
