@@ -21,4 +21,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ${{ secrets.AWS_REGION }}
       - name: Deploy App
-        run: npx serverless@2.72.2
+        run: |
+          npm run deploy
