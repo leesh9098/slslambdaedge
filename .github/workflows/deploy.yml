@@ -9,9 +9,11 @@ jobs:
     steps:
       - name: Checkout source code.
         uses: actions/checkout@master
-      - uses: borales/actions-yarn@v3.0.0
         with:
-          cmd: install
+          ref: master
+      - name: Install with npm
+        run: |
+          npm install
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
