@@ -5,4 +5,3 @@ slslambdaedge:
       defaultLambda: DefaultLambda
       imageLambda: ImageLambda
     bucketRegion: ${{ secrets.AWS_BUCKET_REGION }}
-    
