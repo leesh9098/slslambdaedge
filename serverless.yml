@@ -4,7 +4,7 @@ slslambdaedge:
     name:
       defaultLambda: DefaultLambda
       imageLambda: ImageLambda
-    bucketRegion: ${{ secrets.AWS_BUCKET_REGION }}
+    bucketRegion: us-east-1
     # bucketName: 'serverlesstest-dev-serverlessdeploymentbucket-1j4vl330f0qx'
     cloudfront:
       # distributionId: 'EI53H8SH173NY'
