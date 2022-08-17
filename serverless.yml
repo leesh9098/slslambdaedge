@@ -5,7 +5,7 @@ slslambdaedge:
       defaultLambda: DefaultLambda
       imageLambda: ImageLambda
     bucketRegion: us-east-1
-    # bucketName: 'serverlesstest-dev-serverlessdeploymentbucket-1j4vl330f0qx'
+    bucketName: 'p08gho-jw3og2r'
     cloudfront:
-      # distributionId: 'EI53H8SH173NY'
+      distributionId: 'E1T189ZLDMD266'
       comment: 'next deploy'
